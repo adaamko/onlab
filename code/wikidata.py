@@ -11,6 +11,8 @@ def concat_claims(claims):
         for claim in rel_claims:
             yield claim
 
+def test():
+	a="valami"
 
 def to_triplets(ent):
     claims = concat_claims(ent['claims'])
