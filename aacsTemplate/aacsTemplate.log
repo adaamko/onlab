@@ -1,0 +1,619 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.3)  12 APR 2018 11:58
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/kovacsadam/Desktop/aacsTemplate/aacsTemplate.tex
+(/Users/kovacsadam/Desktop/aacsTemplate/aacsTemplate.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./AUTstyle.sty (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.st
+y
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/latin2.def
+File: latin2.def 2015/03/17 v1.2c Input encoding file
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks17
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks26
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2014/09/29 v2.1h Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen112
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/eucal.sty
+Package: eucal 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/eqlist/eqlist.sty
+eqlist.sty by M. Vaeth: Revision 2.1
+Package: eqlist 2002/08/15 v2.1
+(/usr/local/texlive/2017/texmf-dist/tex/latex/eqparbox/eqparbox.sty
+Package: eqparbox 2013/03/15 v4.0 Create equal-widthed boxes
+\eqp@tempdima=\skip49
+\eqp@tempdimb=\skip50
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen113
+\extrarowheight=\dimen114
+\NC@list=\toks27
+\extratabsurround=\skip51
+\backup@length=\skip52
+)
+\eqp@tabular@box=\box28
+\eqp@list@box=\box29
+\eqp@list@indent=\skip53
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)))
+\eql@cnt=\count99
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks28
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen115
+\Gin@req@width=\dimen116
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks29
+\float@box=\box30
+\@float@everytoks=\toks30
+\@floatcapt=\box31
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks31
+\c@algorithm=\count102
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count103
+\c@ALC@line=\count104
+\c@ALC@rem=\count105
+\c@ALC@depth=\count106
+\ALC@tlm=\skip54
+\algorithmicindent=\skip55
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count107
+\mult@box=\box32
+\multicol@leftmargin=\dimen117
+\c@unbalance=\count108
+\c@collectmore=\count109
+\doublecol@number=\count110
+\multicoltolerance=\count111
+\multicolpretolerance=\count112
+\full@width=\dimen118
+\page@free=\dimen119
+\premulticols=\dimen120
+\postmulticols=\dimen121
+\multicolsep=\skip56
+\multicolbaselineskip=\skip57
+\partial@page=\box33
+\last@line=\box34
+\maxbalancingoverflow=\dimen122
+\mult@rightbox=\box35
+\mult@grightbox=\box36
+\mult@gfirstbox=\box37
+\mult@firstbox=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\c@columnbadness=\count113
+\c@finalcolumnbadness=\count114
+\last@try=\dimen123
+\multicolovershoot=\dimen124
+\multicolundershoot=\dimen125
+\mult@nat@firstbox=\box56
+\colbreak@box=\box57
+\mc@col@check@num=\count115
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip58
+\f@ncyO@elh=\skip59
+\f@ncyO@erh=\skip60
+\f@ncyO@olh=\skip61
+\f@ncyO@orh=\skip62
+\f@ncyO@elf=\skip63
+\f@ncyO@erf=\skip64
+\f@ncyO@olf=\skip65
+\f@ncyO@orf=\skip66
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/rotfloat/rotfloat.sty
+Package: rotfloat 2004/01/04 v1.2 Combining float+rotating package (AS)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count116
+\rotFPtop=\skip67
+\rotFPbot=\skip68
+\rot@float@box=\box58
+\rot@mess@toks=\toks32
+)
+Package rotfloat Info: float package v1.3 detected on input line 74.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup9
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count117
+\FV@InFile=\read1
+\FV@TabBox=\box59
+\c@FancyVerbLine=\count118
+\FV@StepNumber=\count119
+\FV@OutFile=\write4
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip69
+\multirow@cntb=\count120
+\multirow@dima=\skip70
+\bigstrutjot=\dimen126
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen127
+\WF@size=\dimen128
+\c@WF@wrappedlines=\count121
+\WF@box=\box60
+\WF@everypar=\toks33
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen129
+\captionmargin@=\dimen130
+\captionwidth=\dimen131
+\caption@tempdima=\dimen132
+\caption@indent=\dimen133
+\caption@parindent=\dimen134
+\caption@hangindent=\dimen135
+)
+\c@ContinuedFloat=\count122
+Package caption Info: float package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+\c@KVtest=\count123
+\sf@farskip=\skip71
+\sf@captopadj=\dimen136
+\sf@capskip=\skip72
+\sf@nearskip=\skip73
+\c@subfigure=\count124
+\c@subfigure@save=\count125
+\c@lofdepth=\count126
+\c@subtable=\count127
+\c@subtable@save=\count128
+\c@lotdepth=\count129
+\sf@top=\skip74
+\sf@bottom=\skip75
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/coolstr/coolstr.sty
+Package: coolstr 2009/09/09 v2.2 COntent Oriented LaTeX Strings
+\c@COOL@strlen=\count130
+\c@COOL@strpointer=\count131
+\c@COOL@str@index=\count132
+\c@COOL@str@start=\count133
+\c@COOL@str@end=\count134
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@theorem=\count135
+\c@alg=\count136
+) (./aacsTemplate.aux)
+\openout1 = `aacsTemplate.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count137
+\scratchdimen=\dimen137
+\scratchbox=\box61
+\nofMPsegments=\count138
+\nofMParguments=\count139
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count140
+\MPscratchDim=\dimen138
+\MPnumerator=\count141
+\makeMPintoPDFobject=\count142
+\everyMPtoPDFconversion=\toks35
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <6> on input line 19.
+LaTeX Font Info:    Try loading font information for U+msa on input line 19.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 19.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+esint on input line 19.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+)
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7> on input line 19.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <5> on input line 19.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 32.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [1
+
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<Figure/father.png, id=17, 100.375pt x 261.97874pt>
+File: Figure/father.png Graphic file (type png)
+ <use Figure/father.png>
+Package pdftex.def Info: Figure/father.png used on input line 78.
+(pdftex.def)             Requested size: 50.18736pt x 130.98904pt.
+
+<Figure/fathernew.png, id=18, 200.75pt x 253.94875pt>
+File: Figure/fathernew.png Graphic file (type png)
+
+<use Figure/fathernew.png>
+Package pdftex.def Info: Figure/fathernew.png used on input line 78.
+(pdftex.def)             Requested size: 100.37474pt x 126.97406pt.
+ [2 <./Figure/father.png> <./Figure/fathernew.png>]
+<Figure/creator.png, id=24, 235.88126pt x 462.72874pt>
+File: Figure/creator.png Graphic file (type png)
+
+<use Figure/creator.png>
+Package pdftex.def Info: Figure/creator.png used on input line 111.
+(pdftex.def)             Requested size: 117.94034pt x 231.3638pt.
+
+<Figure/creatornew.png, id=26, 427.5975pt x 507.8975pt>
+File: Figure/creatornew.png Graphic file (type png)
+
+<use Figure/creatornew.png>
+Package pdftex.def Info: Figure/creatornew.png used on input line 111.
+(pdftex.def)             Requested size: 213.79822pt x 253.94814pt.
+
+<Figure/tributary.png, id=27, 228.855pt x 585.18625pt>
+File: Figure/tributary.png Graphic file (type png)
+
+<use Figure/tributary.png>
+Package pdftex.def Info: Figure/tributary.png used on input line 127.
+(pdftex.def)             Requested size: 114.42722pt x 292.5924pt.
+
+<Figure/tributarynew.png, id=28, 306.14375pt x 605.26125pt>
+File: Figure/tributarynew.png Graphic file (type png)
+
+<use Figure/tributarynew.png>
+Package pdftex.def Info: Figure/tributarynew.png used on input line 127.
+(pdftex.def)             Requested size: 153.07149pt x 302.62987pt.
+
+<Figure/flag.png, id=29, 657.45625pt x 911.405pt>
+File: Figure/flag.png Graphic file (type png)
+ <use Figure/flag.png>
+Package pdftex.def Info: Figure/flag.png used on input line 135.
+(pdftex.def)             Requested size: 197.23839pt x 273.4236pt.
+
+<Figure/employer.png, id=30, 432.61626pt x 708.6475pt>
+File: Figure/employer.png Graphic file (type png)
+
+<use Figure/employer.png>
+Package pdftex.def Info: Figure/employer.png used on input line 149.
+(pdftex.def)             Requested size: 173.04343pt x 283.45398pt.
+
+<Figure/employernew.png, id=31, 653.44125pt x 700.6175pt>
+File: Figure/employernew.png Graphic file (type png)
+
+<use Figure/employernew.png>
+Package pdftex.def Info: Figure/employernew.png used on input line 149.
+(pdftex.def)             Requested size: 261.37187pt x 280.24203pt.
+ [3] (./aacsTemplate.bbl [4 <./Figure/creator.png> <./Figure/creatornew.png>] [
+5 <./Figure/tributary.png> <./Figure/tributarynew.png>]) [6 <./Figure/flag.png>
+] [7 <./Figure/employer.png> <./Figure/employernew.png>] (./aacsTemplate.aux) )
+ 
+Here is how much of TeX's memory you used:
+ 5965 strings out of 492995
+ 87088 string characters out of 6132704
+ 161677 words of memory out of 5000000
+ 9299 multiletter control sequences out of 15000+600000
+ 28072 words of font info for 87 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 51i,12n,45p,321b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/cm-super/sfit1000.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2017/texmf-dist/f
+onts/type1/public/cm-super/sftt1000.pfb>
+Output written on aacsTemplate.pdf (7 pages, 587084 bytes).
+PDF statistics:
+ 118 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{han00mining}
+J.~Han, J.~Pei, and Y.~Yin, ``Mining frequent patterns without candidate
+  generation,'' in {\em Proc. of ACM SIGMOD International Conference on
+  Management of Data} (W.~Chen, J.~Naughton, and P.~A. Bernstein, eds.),
+  pp.~1--12, ACM Press, 05 2000.
+
+\bibitem{burdick01mafia}
+D.~Burdick, M.~Calimlim, and J.~Gehrke, ``Mafia: A maximal frequent itemset
+  algorithm for transactional databases.,'' in {\em Proc. of the 17th
+  International Conference on Data Engineering, (ICDE'01),
+  \url{hhtp://avalon.aut.bme.hu/~reni}}, pp.~443--452, IEEE Computer Society,
+  2001.
+
+\bibitem{proba}
+Reni, ``Matlab scripts.'' \url{http://avalon.aut.bme.hu/~agi/research/}.
+
+\end{thebibliography}
