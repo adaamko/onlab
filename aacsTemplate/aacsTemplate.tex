@@ -8,7 +8,7 @@
 \institution{Department of Automation and Applied Informatics \\
 Budapest University of Technology and Economics}
 
-\email{\{recski,adaam.ko\}@aut.bme.hu}
+\email{recski@aut.bme.hu \\ adaam.ko@gmail.com}  
 
 \headerTitle{Knowledge base population \dots}
 \headerAuthor{Recski Gabor and Kovacs Adam}
@@ -71,9 +71,9 @@ we can have a large amount of information retrieved from the combination of the 
   \centerline{
   \hbox{
   \hspace{0.0in}
-        \includegraphics[scale=0.5]{Figure/father.png}
+        \includegraphics[scale=0.5]{Figure/father.jpg}
         \hspace{0.1\columnwidth}
-        \includegraphics[scale=0.5]{Figure/fathernew.png}
+        \includegraphics[scale=0.5]{Figure/fathernew.jpg}
     }
   }
   \vspace{3pt}
@@ -104,9 +104,9 @@ longman was \texttt{a person or company that makes money by buying land and then
   \centerline{
   \hbox{
   \hspace{0.0in}
-        \includegraphics[scale=0.5]{Figure/creator.png}
+        \includegraphics[scale=0.5]{Figure/creator.jpg}
         \hspace{0.1\columnwidth}
-        \includegraphics[scale=0.5]{Figure/creatornew.png}
+        \includegraphics[scale=0.5]{Figure/creatornew.jpg}
     }
   }
   \vspace{3pt}
@@ -120,9 +120,9 @@ longman was \texttt{a person or company that makes money by buying land and then
   \centerline{
   \hbox{
   \hspace{0.0in}
-        \includegraphics[scale=0.5]{Figure/tributary.png}
+        \includegraphics[scale=0.5]{Figure/tributary.jpg}
         \hspace{0.1\columnwidth}
-        \includegraphics[scale=0.5]{Figure/tributarynew.png}
+        \includegraphics[scale=0.5]{Figure/tributarynew.jpg}
     }
   }
   \vspace{3pt}
@@ -132,7 +132,7 @@ longman was \texttt{a person or company that makes money by buying land and then
 \end{figure}
 
 \begin{figure}[htb]
-  \centerline{\includegraphics[scale=0.3]{Figure/flag.png}}
+  \centerline{\includegraphics[scale=0.3]{Figure/flag.jpg}}
   \caption{Flag definition}
   \label{fig:flag}
  \end{figure}
@@ -142,9 +142,9 @@ longman was \texttt{a person or company that makes money by buying land and then
   \centerline{
   \hbox{
   \hspace{0.0in}
-        \includegraphics[scale=0.4]{Figure/employer.png}
+        \includegraphics[scale=0.4]{Figure/employer.jpg}
         \hspace{0.1\columnwidth}
-        \includegraphics[scale=0.4]{Figure/employernew.png}
+        \includegraphics[scale=0.4]{Figure/employernew.jpg}
     }
   }
   \vspace{3pt}
@@ -153,25 +153,58 @@ longman was \texttt{a person or company that makes money by buying land and then
   \label{fig:employer}
 \end{figure}
 
+\begin{figure}[htb]
+  \vspace{3pt}
+  \centerline{
+  \hbox{
+  \hspace{0.0in}
+        \includegraphics[scale=0.4]{Figure/host.jpg}
+        \hspace{0.1\columnwidth}
+        \includegraphics[scale=0.4]{Figure/promote.jpg}
+    }
+  }
+  \vspace{3pt}
+  \hbox{\hspace{0.13\columnwidth} (host) \hspace{0.3\columnwidth} (promote)}
+  \caption{ (host) definition (promote) definition}
+  \label{fig:errors}
+\end{figure}
+
 \section{Testing and Conclusions}
 \label{sec:Testing}
-Knowing these facts we can make a few assumptions for increasing the possibility of the additional information's correctness. 
-We can separate the two types of method we introduced earlier and inspect each one individually. Our initial thought was to design an algorithm
-that can identify the correct edges. For example, when there is only one $0$ or $2$ type edge in the definition
-graph or there is no ingoing edge to the predicate, there is a higher chance that the additional information that we gained by the mapping will be correct.
-Using these techniques we performed quantitative evaluation by manually inspecting a small output sample, that contained these kind of assumptions.
-We found out, that we have a higher success rate by closing out those automatically that we think will give us false information such as invalid information
-in the WikiData dataset or when there are multiple choices in the longman definition and we didn't select the ones where there was no edge or node found. By examinating the sample size of 3000 graphs, our algorithm for edge type 0
-closed out 1252 of them and for edge type 2 it closed out 2647. From the remaining ones, we manually chose 100 random ones, and we found that
-77 of them were near perfect. From these informations, we can assume that using the methods explained, we can reach 77 percent success rate.
-For gaining we could combine the algorithms designed for identifying the incorrect ones with the one choosing the right ones. 
-This way from the remaining 1728 with type edge 0, our methods suggest that 1559 is correct, 899 out of it is because of the no ingoing edge rule and 660 is coming from the single zero edge rule.
-With edge type 2 from the remaining 353 we think 220 is correct 55 of them is coming from the no ingoing edge, 37 because of the single edge rule and 128 containing both. 
+We designed two types of algorithms, firstly we found out that we have higher success rate by closing out those automatically what we think
+will give us false informations such as when the triplet's predicate in the wikidata doesn't have both of the arguments, or when there are multiple
+choices in the longman definition such as \texttt{a person, company, or organization that employs people}. We didn't select the ones where there was no edge or no node found.
+After closing out the graphs we think will give incorrect prediction, we designed algorithm to keep graphs from the remaining ones by identifying those we think have a higher chance of being right.
+These algorithms included keeping the ones when there is only one $0$ or $2$ type edge in the definition graph or there is no ingoing edge
+to the predicate. These two methods were essentially designed to keep the graphs that is we think is simpler by definition, and doing these
+we have a higher chance that the additional information we gained by the mapping will be correct.
 
+We examinated the WikiData database containing 86,3 million triplet with 893 unique predicates with mean 96660 and variance 818079.
+Our system only handles one worder predicates, so we pre-filtered the dataset keeping 195 unique predicates generating 19,6 million triplet
+with mean 100772 and variance 566557. After pre-filtering we could apply our methods. First we kept only those triplets whose were complete, so both of their arguments were present.
+This method didn't decrease the number of predicates, only the triplets keeping 14,2 million of them. From now on we can apply the rule specific filtering.
+For the first and the second rule(for edge type 0 and type 2) we closed out the ones with multiple choices in their definition as shown in \figurename~\ref{fig:employer}(default) and the ones we can't apply our pattern.
+For the rule targeting zero edges, we closed out 87 predicates, keeping only 108 with triplets count 9276533(9.2 million), mean 85893 and variance 388140.
+For the second rule we closed out 168 predicates with remaining 27 generating 1425311(1.4 million), mean 52789 and variance 99993. These statistics show that
+there are more predicates with the first rule where we can apply our pattern, and we close out more predicates for the second rule. For the remaining triplets
+we apply the algorithm trying to identify the graphs with higher success rate. For the first rule this means we keep 84 predicates producing 8420734(8.2 million) triplets with mean 100246
+and variance 437205. For the second rule we keep 25 predicates generating 831288 triplets with mean 33251 and variance 54688. So our methods suggest that 
+for the first rule we have 8.2 million and for the second rule we have 831 thousand newly generated correct edges. 
+
+To this point every one of our methods worked automatically,
+now we manually inspect the remaining predicates to gain information about the success rate of our methods. From the 84 predicates with the first rule, 55 was near perfect, reaching around 65 success rate,
+but generating 89 percent of the triplets. With numbers: 7624815(7.6 million) triplet, mean 138633, variance 532524. We chose 84 predicates out of the 108, because we thought they had better
+success rate. We inspected the 24 ones to validate our methods. The numbers show that only 12 of them were correct reaching only 50 percent success rate.
+For the rule number two this algorithm chose 25 predicates, 17 was near perfect reaching around 65 percent success rate as well but generating 90 percent of the data with
+742349 triplets(mean: 46396, 62058).
+We have to notice that the errors doesn't always mean that the information we gained was incorrect, sometimes it just didn't generate useful informations, when we generate edges such as
+\texttt{X}~$\xrightarrow0$~\texttt{something}. 
+Our method is still not perfect, when a definition of the predicate doesn't match the context of the triplet, another example for the first rule is the triplet (Ophiostoma ainoae, host, Scots Pine)
+with the generated graph shown in \figurename~\ref{fig:errors}(host), where host was interpreted as an army, wrongly. This is the case for the second rule for the triplet (2009 Cypriot Second Division, promoted, Alki Larnaca F.C.)
+with the generated graph shown in \figurename~\ref{fig:errors}(promote) where promote wasn't interpreted as promote a football club.
 
 \section{Bibliography}
 \label{sec:bib}
-
 You have to use the \verb|\makeAutBib| command for your
 bibliography. The input parameter of the command is the comma
 separated list of bib files without the extension. You can also find
